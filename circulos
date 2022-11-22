@@ -1,0 +1,24 @@
+//corre solo una vez cuando inicia el programa
+function setup(){
+    console.log("setup");
+    
+    //createCanvas: ancho, alto en píxeles
+    createCanvas(200,200);
+    background(125);
+   
+}
+
+//corre continuamente después de la función setup
+function draw(){
+    var x = 50;
+
+while(x<width-25){
+    ellipse(x,height/2, 25,25);
+    x = x + 50;
+
+    
+}
+}
+
+
+                            
